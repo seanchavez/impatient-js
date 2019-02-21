@@ -13,6 +13,7 @@ test('concatStringArray', () => {
   assert.equal(concatStringArray([]), '');
   assert.equal(concatStringArray(['abc']), 'abc');
   assert.equal(concatStringArray(['x', 'y', 'z']), 'xyz');
+  assert.equal(concatStringArray(['b', 'ru', 'h', '.']), 'bruh.');
 });
 
 //----------
