@@ -1,9 +1,11 @@
+import dedent from 'dedent';
+
 export const arrayWithObjectsToTable = addrs =>
-  `
+  dedent`
 <table>
   ${addrs
     .map(addr =>
-      `
+      dedent`
       <tr>
         <td>${escapeHtml(addr.first)}</td>
         <td>${escapeHtml(addr.last)}</td>

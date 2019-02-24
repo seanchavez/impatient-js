@@ -18,7 +18,7 @@ test('arrayWithObjectsToTable', () => {
   ];
   // Lenient testing via .trim()
   assert.equal(
-    arrayWithObjectsToTable(data).trim(),
+    arrayWithObjectsToTable(data),
     `<table>
   <tr><td>Croft</td><td>Lars</td></tr>
   <tr><td>Bond</td><td>Jane</td></tr>
